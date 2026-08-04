@@ -1,0 +1,40 @@
+# Forge — local AI coding agent
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Agent runtime state (per-project, not source code)
+.agent/
+.claude/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+/local-coding-agent.egg-info/
+/forge.egg-info/
+dist/
+build/
+wheels/
+
+# Test artifacts
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+tmp_pytest/
+
+# Type / lint caches
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
